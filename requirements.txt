@@ -1,0 +1,6 @@
+langchain
+langgraph
+youtube-transcript-api
+ollama
+python-dotenv
+gradio
