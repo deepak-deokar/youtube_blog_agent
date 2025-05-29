@@ -1,8 +1,8 @@
 import ollama
 
-def generate_blog(summary: str, model="phi4-mini") -> str:
+def generate_blog(summary: str, style: str = "neutral", model="phi4-mini") -> str:
     prompt = f"""Write a blog post with an engaging title based on the following summary. 
-    Format it with a title, introduction, body, and conclusion.
+    Format it with a title, introduction, main content, and conclusion.
 
     Summary:
     {summary}
