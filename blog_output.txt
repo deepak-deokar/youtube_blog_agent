@@ -1,29 +1,140 @@
-**Title: Unveiling Agentic Rag Applications vs. Traditional Systems - A Deep Dive into Modern Generative AI**
+# Title:
+"Krazy Creations Unleashed! Distinguishing Generative vs Agentic AIs: Revolutionizing Content Creation!" 
 
----
+Description:
 
-### Introduction
+Discover how advanced AI technologies like generative, agentic and traditional AIs are transforming our approach to content creation. Join Krishna as he explores the exciting possibilities of using these innovative tools for everything from generating videos & blog posts (Part 1) , to enhancing workflows with Llama Index - but not providing real-time data! 
 
-Welcome to a new journey on my YouTube channel! Today I'm excited to delve deep and dissect the differences between traditional Retrieval-Augmented Generation (RAG) systems, often referred to as conventional RAGs or LLM-based applications versus more advanced agentic Rag implementations. Whether you're studying for an AI-related interview course, curious about cutting-edge tech trends in generative models, or simply eager to expand your knowledge on this fascinating subject matter - I've got you covered.
+In Part 8: learn about AI agents, designed around predefined capabilities like answering questions or extending functionalities through additional tool calls. Agentic AIs go even further by leveraging external resources for enhanced tasks outside their primary functions!
 
-### Main Content
+Part 9 delves into a collaborative approach between different agentics - converting YouTube videos to transcripts and generating titles based on them in real-time! Plus, learn how integrating human feedback can take your outcomes from good-to-great.
 
-Traditional RAG systems are well-known and widely used across various industries today; they typically involve combining user queries with prompt instructions which then get processed through large language model (LLM) responses. Picture it as asking a sophisticated data scientist to answer your questions, but in this case instead of direct answers you're providing them via prompts.
+So buckle up as we dive deeper into the world of generative ways involving Lang Chain or LLM graphs (Part 4) ! And don't forget Krishna's promise for an even more detailed explanation soon. Let's embrace this revolutionary era and unlock our creative potential like never before! Thanks to everyone who watched - we're excited about your continued engagement until next time, where we continue exploring the fascinating world of AI Agents versus Agentic AIs (Part 12). #AIRevolution #ContentCreationUnleashed
 
-The beauty lies within the process: once you input your query into such systems they retrieve relevant information from an extensive knowledge base - essentially acting like our modern-day Sherlock Holmes! This retrieved content is then combined with user inputs and processed through LLMs to produce outputs that hopefully make sense, provide insight or even surprise us!
+Welcome to today's blog post where we dive into an intriguing yet sometimes confusing world of artificial intelligence! Whether you are a tech enthusiast, content creator or just curious about how AI shapes our digital experiences — we're here with exciting insights. Today we'll explore topics like generative vs traditional AIs and delve deep into large language models (LLMs), their reactive nature due to specific instructions for tasks such as news updates using tools e.g., Llama Index.
 
-However, Krishna here brings up a thought-provoking aspect: what if we could push the boundaries of RAG systems further into an "agentic Rag" paradigm? Agentic rag refers specifically as enhancing performance by integrating vector databases within traditional retrieval-augmented generation applications.
+We will also look at the differences between agentic systems, which leverage external resources through prompt programming or tool calls. Plus we'll talk about how they extend beyond traditional agents with extended functionalities and human feedback integration in workflows across various fields like video creation to blog posts (Part 1).
 
-Picture this - instead of solely relying on LLM responses to generate outputs after retrieving relevant documents from a knowledge base, you have now incorporated complex algorithms that make use not only of the text retrieved but also additional context and relationships derived through Vector Databases (DBs).
+In part 2 of this post we’ll explore large language models as examples capable of generating new outputs based on specific inputs, making them versatile tools for a range of tasks. The conversation will then extend into how these systems are reactive by nature due to their dependence on given instructions—an aspect that makes agentic AI especially useful when built using specialized toolkits like Llama Index (Part 3).
 
-These vector databases allow RAG systems an enhanced capability by storing information in ways other than plain-text - instead using vectors representing semantic similarities among different concepts. Krishna emphasizes how this integration could potentially result into more accurate, contextualized responses that take us beyond conventional LLM-based applications.
+In part 4 we’ll look at the differences between traditional agents and Agentic AIs; while both can be programmed with human feedback integrated into workflows across various fields, it is only through prompt programming or external resources that an agentic system extends its functionalities to handle more complex tasks.
+
+The conversation will continue in Part 8 as Krishna explains how AI Agents are specialized software systems designed around predefined capabilities like answering questions from existing knowledge sets but can extend their functionality by leveraging tools beyond text generation. Agentic AIs, on the other hand go a step further using external resources for enhanced data retrieval (Part 8).
+
+In part 9 we’ll explore an agnostic agentic AI system consisting of multiple agents capable of converting YouTube videos into transcripts while generating titles based on those transcriptions — all in real-time. This collaborative approach between different AIs allows each to carry out its function, compiling the outputs from YT video URLs provided by users (Part 9).
+
+And finally part 11 will explain how this agnostic Agentic AI system involves collaboration among several agents: one extracts and converts transcripts; another generates titles based on those transcriptions. Further refinement is done through subsequent parallel processes for creating descriptions or potential conclusions/summaries — all thanks to the collaborative nature of achieving goals in an agentic setting compared with traditional single-agent systems (Part 11).
+
+We hope that this post offers valuable insights into distinguishing between generative, Agentic and Traditional AIs while highlighting how they can be employed creatively. Feel free to share your thoughts below or on our social media platforms as we continue exploring the fascinating world of artificial intelligence!
+
+### Referenced in this video:
+- Organizations: None mentioned.
+- Krishnajit
+- Technologies:
+- Locations/Events or Products:
+- Generative AI
+- Lang Chain
+- large language models
+- Language Models (LLMs)
+- YT video URLs
+- generative AI technology
+- YouTube channel
+- Llama Index
+- Agentic AI systems
+- agentic AI
+- Traditional AIs
+- No specific locations, events, products were discussed in the summary provided.
+- tool calls for enhanced data retrieval
+- agentic setting collaboration technologies
+- prompt programming
+- tools beyond text generation
+
+## Generative vs Traditional AI: Differentiating between concepts such as generative, agentic, and traditional artificial intelligence.
+
+Generative vs Traditional Artificial Intelligence: Differentiating Concepts
+
+In a recent video on his YouTube channel, Krishna delved into the world of artificial intelligence by differentiating between generative AIs, agentic AIs, and traditional AI systems. This topic is crucial for professionals working across related fields like content creation through videos to blog posts (Part 1).
+
+Large language models serve as prominent examples in this discussion; these sophisticated tools are capable of generating new outputs based on given inputs or prompts—highlighting their generative capabilities.
+
+Krishna also shed light on how AI systems, particularly those built using frameworks such as Llama Index for tasks like news updates but not real-time data (Part 3), operate reactively due to specific instructions. These characteristics underscore the reactive nature of these models and why they excel in certain scenarios over others—like traditional AIs that rely heavily on pre-defined knowledge bases.
+
+An important distinction Krishna made is between AI agents, which are specialized software systems designed around predefined capabilities like answering questions based solely from existing information sets (Part 8), versus Agentic AIs. These advanced models extend beyond their primary functions through prompt programming and tool calls to enhance data retrieval for more complex tasks outside of mere text generation.
+
+Krishna's discussion featured an example wherein multiple AI agents collaboratively convert YouTube videos into transcripts while generating titles based on those transcriptions (Part 9). This illustrates how Agentic AIs work together in a synergistic manner, enhancing the overall workflow by allowing each agent to perform its designated task—showcasing their collaborative advantage over traditional single-agent systems.
+
+Further refinement and human integration can enhance outcomes even more. Krishna encourages viewers who are keen on understanding these nuanced differences between generative AI versus other types like "AI Agents" or Agentic AIs (Part 12). This knowledge is vital for professionals seeking to leverage the full potential of artificial intelligence in various fields, from content creation with tools such as ChatGPT and AI art.
+
+Krishna’s explanation emphasizes that while traditional AIs excel at specific tasks within their predefined capabilities spectrum, generative systems like Agentic AIs can surpass these limitations by integrating diverse resources. This collaborative approach not only showcases the dynamic potential of modern artificial intelligence but also underscores its growing importance in an increasingly interconnected world where continuous learning and adaptability are paramount.
+
+In conclusion, Krishna's exploration into AI differentiation provides a comprehensive overview that aids professionals across industries to better understand how different types of AIs can serve various applications effectively. Whether it's through traditional methods or innovative generative approaches involving tools like Lang Chain graphs (Part 4), the future holds significant promise for harnessing these intelligent systems' full potential.
+
+External Info:
+Artificial intelligence, a field within computer science focusing on enabling computational devices to perform tasks associated with human cognition such as learning and decision-making. High-profile applications span across advanced web search engines; recommendation platforms like YouTube, Amazon, Netflix; virtual assistants (Google Assistant); autonomous vehicles by companies including Waymo; generative tools for creative outputs exemplified through ChatGPT or AI art.
+
+Understanding these different paradigms in artificial intelligence enables better utilization of technology to achieve goals more efficiently and effectively across diverse industries. Thank you Krishna's viewers who joined him on this enlightening journey, looking forward until his next interaction!
+## Large Language Models: Exploring how LLMs can generate new outputs across various mediums based on specific inputs or prompts.
+
+### Large Language Models: Exploring How They Generate New Outputs Across Various Mediums
+
+In today's discussion, Krishna introduces his YouTube channel where he delves into differentiating between various types of artificial intelligence. One key topic that requires clarity for those working across related fields like content creation is the capability and differentiation among generative AI, agentic AI, and traditional AIs.
+
+Large Language Models (LLMs) such as GPT-3 or ChatGPT are excellent examples capable of generating new outputs in diverse mediums with given inputs or prompts. These systems can produce text-based responses to questions from pre-existing knowledge sets but extend beyond simple answers when integrated into workflows using tools like Llama Index for tasks including news updates.
+
+However, it's crucial not just to understand that these models generate based on specific instructions—they're reactive by nature due to this dependence (Part 3). Generative ways involving Lang Chain or Large Language Model graphs are essential concepts further explored in future videos. Understanding the generative capabilities of LLMs opens up numerous possibilities for content creation, ranging from blog posts and video scripts to news articles.
+
+**AI Agents vs Agentic AIs:**
+In Part 8, Krishna differentiates between AI agents—specialized software systems designed around predefined tasks like answering questions—and agentic AIs. While both can be enhanced through human feedback integrated into workflows across various fields for automating complex processes (Part 9), it is the collaboration among multiple specialized 'agents' within an agnostic Agentic system that significantly amplifies output capabilities.
+
+For example, Krishna discusses a collaborative AI setup where one entity extracts and converts YouTube video transcripts while another generates titles based on those transcriptions. Further refinement through subsequent parallel processing can create descriptions or potential conclusions/summaries (Part 11). This illustrates how integrating human feedback with these systems ensures more refined outcomes compared to traditional single-agent setups.
+
+**Conclusion:**
+Generative AI, particularly Large Language Models like LLMs and Agentic AIs leveraging Lang Chains for enhanced tasks such as data retrieval from external resources beyond text generation, represents a significant advancement in our ability to create content across various mediums. Understanding these differences is crucial before diving into how they can transform the ways we approach digital workflows.
+
+Krishna thanks viewers at this point (Part 12) and encourages continued exploration of generative AI versus other types like traditional AIs or "AI Agents." Stay tuned for more detailed insights in future videos as he explores further depths on these transformative technologies.
+## Reactive Nature of AI Systems: Discussing the reactive nature due to dependence on given instructions for tasks like news updates with tools (e.g., Llama Index).
+
+**Understanding Reactive Nature of AI Systems in News Updates**
+
+In today's discussion, we delve into a fascinating aspect often overlooked when dealing with advanced artificial intelligence systems: their reactive nature due to dependence on given instructions. This concept becomes particularly evident through the use of tools like Llama Index for tasks such as news updates.
+
+Large language models exemplify this characteristic by generating new outputs based solely upon provided inputs or prompts. These AI-driven responses are inherently dependent and highly responsive, making them exceptionally suited when built with specific functions in mind using sophisticated platforms designed to streamline processes (such as those outlined briefly earlier).
+
+When we talk about tools like Llama Index being employed for news updates through generative models such as Lang Chain graphs, the reactive nature becomes apparent. These systems do not offer real-time data but instead rely on pre-fed instructions and predefined datasets.
+
+This reliance extends further when discussing AI agents versus agentic AIs in Part 8 of our transcript summary: while traditional AI agents are specialized for tasks like answering questions within their knowledge sets through tool calls, Agentic AIs can leverage external resources to fulfill additional functions via prompt programming. This demonstrates how both types function reactively but with varying degrees and capabilities.
+
+Krishna's exploration into an agnostic agentic system shows a collaborative approach among multiple AI agents: one focuses on extracting transcripts from YouTube videos while another generates titles based upon these transcriptions (Part 11). Such systems exemplify the synergy between reactive nature, collaboration across different tasks within predefined workflows. 
+
+Understanding this nuanced differentiation helps clarify how generative ways of thinking and processing are increasingly becoming integral to our interactions with AI.
+
+In conclusion, recognizing that many modern applications hinge on instructions provided in advance allows us better comprehension as we navigate these evolving technologies (Part 12). Understanding the reactive nature versus proactive capabilities is crucial for professionals across various fields utilizing such advanced tools. Thank you all! We hope this discussion helps shed light and will see next time.
+
+(Note: No additional external facts were found relevant to supplementing or altering the original context of Krishna's conversation summary provided.)
+## Agentic vs Traditional Agents: Highlighting differences and extended functionalities in agentic systems through external resources, prompt programming, and tool calls.
+
+**Agentic vs Traditional Agents: Highlighting Differences through Extended Functionalities**
+
+In today's discussion, Krishna delves into the world of artificial intelligence to shed light on differentiating between generative AIs like large language models that can produce new outputs across various mediums with given inputs or prompts. These systems are reactive by nature due largely because they rely heavily upon specific instructions for operation.
+
+Traditional AI agents typically exhibit a narrower scope, designed primarily around predefined capabilities such as answering questions from established knowledge sets (e.g., Google's search engine). However, these functionalities can be expanded through the use of additional tools beyond text generation. 
+
+In contrast to traditional AIs that work within their programmed boundaries and rely on pre-existing data stores for responses or tasks like news updates with Llama Index but not real-time information retrieval systems.
+
+Krishna then introduces Agentic AI—a step up from both generative and conventional agents, which incorporates external resources through prompt programming and tool calls. This capability allows them to fulfill more complex functions that go beyond their primary purpose (Part 8).
+
+For instance, an agnostic agentic system composed of multiple specialized AIs can collaboratively convert YouTube videos into transcripts while generating titles based on those transcriptions—a process involving extracting content from YT video URLs provided by users and further refining outputs like descriptions or conclusions/summaries through subsequent parallel processes.
+
+Key to this advanced setup is the collaborative nature, often integrating human feedback for continuous improvement. This system starkly contrasts traditional single-agent systems in its multi-faceted approach toward achieving goals via collaboration among several AI agents (Part 11).
+
+In conclusion of today's discussion on generative and agentic AIs versus other forms like "AI Agents," Krishna expresses gratitude towards viewers who engaged with this topic, inviting them to stay connected for further exploration into these fascinating aspects. Understanding the evolving landscape in artificial intelligence can provide a valuable edge as we navigate an increasingly digital future.
+
+Artificial Intelligence (AI) continues pushing boundaries across various domains including advanced search engines such as Google Search; recommendation systems used by platforms like YouTube and Netflix; virtual assistants from companies ranging from Apple to Amazon, along with autonomous vehicles developed through innovations spearheaded entities. Generative tools exemplified in ChatGPT are also transforming how creativity is leveraged within AI.
+
+Krishna invites his audience into this realm of advanced computational intelligence that not only mimics human interaction but continuously seeks enhancements driven by the convergence between traditional knowledge and innovative tool calls for enriched outcomes, promising further insights to keep you engaged with these transformative technologies.
 
 ### Conclusion
 
-So what do we have now? A new generation of RAG systems equipped with agentic capabilities through vector databases which may very well revolutionize the way generative AI operates today! 
+In conclusion, both generative AI technologies such as Large Language Models (LLMs) and traditional forms of artificial intelligence offer unique advantages that can be leveraged depending on the specific needs at hand. While LLMs excel in producing new outputs across a variety of mediums based solely upon input prompts or instructions—thereby showcasing their reactive nature—the distinctions between agentic systems, which extend beyond basic responses through prompt programming and external resources like tools (e.g., Llama Index), become increasingly significant.
 
-Krishna here hopes to shed some light on this topic, and I encourage you all - whether you're studying for an upcoming interview or simply intrigued by cutting-edge technology trends in artificial intelligence – understanding both traditional RAG systems along with their advanced counterparts can be incredibly beneficial.
-
-Stay tuned as Krishna continues exploring the world of Generative AI! You might just find yourself pleasantly surprised on this enlightening journey together!
-
-### Subscribe Now and Stay Tuned for Future Insights from Krishna's Channel, where cutting-edge technology meets engaging learning experiences. Happy Learning!
+Understanding these differences is crucial for effectively utilizing AI to enhance tasks ranging from news updates with Reactively-driven models such as those powered by platforms including Llama Index. Ultimately the choice between generative versus traditional systems, or even a hybrid approach combining both elements can depend on context and desired outcomes while navigating this evolving landscape of artificial intelligence technologies.
