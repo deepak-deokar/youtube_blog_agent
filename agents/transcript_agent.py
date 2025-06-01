@@ -5,6 +5,11 @@ def extract_transcript(video_url: str) -> str:
         video_id = video_url.split("v=")[-1].split("&")[0]
         transcript = YouTubeTranscriptApi.get_transcript(video_id)
         text = " ".join([entry['text'] for entry in transcript])
+
+        if not text.strip():
+            return "[Error] Transcript is empty."
+
         return text
+
     except Exception as e:
         return f"[Error fetching transcript] {e}"
