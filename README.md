@@ -56,14 +56,14 @@ Post-Edit Agent (LLM)
 Condensed Blog (LLM)
     ↓
 Gradio App (UI + Evaluation)
-___
+
 ```
 
 ## ⚙️Installation
 ```bash
 #Clone the repo
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/deepak-deokar/youtube_blog_agent.git
+cd youtube_blog_agent
 
 # Recommended: create virtual environment
 python3 -m venv venv
@@ -85,11 +85,11 @@ python gradio_app.py
 
 ## ✨Usage
 
-1️⃣ Paste a YouTube URL
-2️⃣ Choose Blog Style (neutral, casual, professional, humorous)
-3️⃣ Click Generate Blog
-4️⃣ View Full Blog or Condensed Blog
-5️⃣ Optionally → paste YouTube description or manual reference → get ROUGE evaluation 🚀
+    1️⃣ Paste a YouTube URL.
+    2️⃣ Choose Blog Style (neutral, casual, professional, humorous).
+    3️⃣ Click Generate Blog.
+    4️⃣ View Full Blog or Condensed Blog.
+    5️⃣ Optionally → paste YouTube description or manual reference → get ROUGE evaluation 🚀.
 
 ## 🚀 Key Technologies
 	•	LangGraph (multi-agent orchestration)
