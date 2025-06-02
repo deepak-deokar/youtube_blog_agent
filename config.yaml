@@ -1,0 +1,5 @@
+# config.yaml
+
+model_name: "phi4-mini"
+chunk_size: 2000
+rag_skip_threshold: 1000

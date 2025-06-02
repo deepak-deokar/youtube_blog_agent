@@ -1,78 +1,67 @@
+# agents/blog_agent.py
+
 import ollama
+
+# IMPROVEMENT: Now blog sections have proper headings
 
 def generate_blog(summary: str, topics: list[str], style: str = "neutral", sentiment: str = "neutral", entities=None, enriched_facts=None, model="phi4-mini") -> str:
     topic_sections = ""
     for topic in topics:
         fact = enriched_facts.get(topic, "")
+        # IMPROVEMENT: Stronger prompt → add tone and fact
         prompt = (
-            f"Write a short blog section about the topic '{topic}' based on the following summary.\n"
-            f"Keep the tone {sentiment or style}.\n\n"
+            f"Write a blog section about '{topic}' with tone '{style}'. "
+            f"Use this video summary and external fact if helpful.\n\n"
             f"Summary:\n{summary}\n\n"
-            f"External Info:\n{fact}\n"
+            f"Fact:\n{fact}"
         )
-        
-        # Stream response
-        response_stream = ollama.chat(model=model, messages=[
+        response = ollama.chat(model=model, messages=[
             {"role": "user", "content": prompt}
-        ], stream=True)
-
-        section_text = ""
-        for chunk in response_stream:
-            section_text += chunk['message']['content']
-        
-        section = f"## {topic}\n\n{section_text}\n"
+        ])
+        # IMPROVEMENT: Add proper section heading
+        section = f"## {topic}\n\n{response['message']['content']}\n"
         topic_sections += section
 
     # Final blog intro
     intro_prompt = (
-        f"Write an engaging introduction for a blog with the following topics and tone: {style}.\n"
-        f"Topics: {', '.join(topics)}\n"
+        f"Write an engaging introduction for this blog with tone '{style}'. "
+        f"Topics: {', '.join(topics)}\n\n"
         f"Summary:\n{summary}"
     )
-    intro_stream = ollama.chat(model=model, messages=[{"role": "user", "content": intro_prompt}], stream=True)
-    intro_text = ""
-    for chunk in intro_stream:
-        intro_text += chunk['message']['content']
+    intro = ollama.chat(model=model, messages=[
+        {"role": "user", "content": intro_prompt}
+    ])["message"]["content"]
 
     # Final blog conclusion
     conclusion_prompt = (
-        f"Write a brief conclusion for a blog covering these topics with tone: {style}.\n"
-        f"Topics: {', '.join(topics)}\n"
+        f"Write a short conclusion for a blog covering these topics with tone '{style}'. "
+        f"Topics: {', '.join(topics)}"
     )
-    conclusion_stream = ollama.chat(model=model, messages=[{"role": "user", "content": conclusion_prompt}], stream=True)
-    conclusion_text = ""
-    for chunk in conclusion_stream:
-        conclusion_text += chunk['message']['content']
+    conclusion = ollama.chat(model=model, messages=[
+        {"role": "user", "content": conclusion_prompt}
+    ])["message"]["content"]
 
-    # Entity Section
+    # Entity references
     if entities:
-        entity_section = "### Referenced in this video:\n" + "\n".join(f"- {e}" for e in entities) + "\n\n"
+        entity_section = "### Referenced Entities:\n" + "\n".join(f"- {e}" for e in entities) + "\n\n"
     else:
         entity_section = ""
 
-    # Final Blog Assembly
+    # Assemble full blog
     full_blog = (
         f"# {generate_blog_title(summary, model)}\n\n"
-        f"{intro_text}\n\n"
+        f"{intro}\n\n"
         f"{entity_section}"
         f"{topic_sections}\n"
-        f"### Conclusion\n\n{conclusion_text}"
+        f"### Conclusion\n\n{conclusion}"
     )
     return full_blog
 
-
 def generate_blog_title(summary: str, model="phi4-mini") -> str:
     prompt = (
-        f"Based on the following summary, generate a catchy blog post title.\n\n"
-        f"{summary}"
+        f"Based on this summary, generate a catchy blog title:\n\n{summary}"
     )
-    
-    response_stream = ollama.chat(model=model, messages=[
+    response = ollama.chat(model=model, messages=[
         {"role": "user", "content": prompt}
-    ], stream=True)
-
-    title_text = ""
-    for chunk in response_stream:
-        title_text += chunk['message']['content']
-
-    return title_text.strip().strip('"')
+    ])
+    return response["message"]["content"].strip().strip('"')
