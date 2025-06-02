@@ -57,6 +57,7 @@ Condensed Blog (LLM)
     ↓
 Gradio App (UI + Evaluation)
 ___
+```
 
 ## ⚙️Installation
 ```bash
